@@ -67,7 +67,7 @@ try:
 except IOError:
     kok=open("/storage/emulated/0/android8.txt",'w')
     myid=uuid.uuid4().hex[:12]
-    f="ROYAL-sir"
+    f="Royal-sir"
     key=myid+f
     kok.write(key)
     kok.close()
